@@ -10,6 +10,7 @@ sudo pacman -S --needed --noconfirm - < "$SCRIPT_DIR/packages/pacman.txt"
 
 mkdir -p "$HOME/.config"
 cp -r "$SCRIPT_DIR/home/.config/"* "$HOME/.config/"
+cp "$SCRIPT_DIR/home/.nanorc" "$HOME/.nanorc"
 
 systemctl --user enable pipewire pipewire-pulse wireplumber
 sudo systemctl enable NetworkManager

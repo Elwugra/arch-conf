@@ -30,3 +30,6 @@ xdg-desktop-portal-hyprland
 xorg-xwayland
 chromium
 wl-clipboard
+thunar
+noto-fonts
+awww

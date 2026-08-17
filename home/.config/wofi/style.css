@@ -1,0 +1,49 @@
+window {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#input {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+}
+
+#inner-box {
+    background-color: transparent;
+}
+
+#outer-box {
+    padding: 5px;
+}
+
+#scroll {
+    margin: 0;
+}
+
+#entry {
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin: 2px 0;
+}
+
+#entry:selected {
+    background-color: rgba(0, 0, 0, 0.95);
+    border: 1px solid white;
+    color: white;
+}
+
+#text {
+    color: white;
+}
+
+#text:selected {
+    color: white;
+}
