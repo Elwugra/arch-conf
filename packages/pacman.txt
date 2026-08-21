@@ -33,3 +33,12 @@ wl-clipboard
 thunar
 noto-fonts
 awww
+mako 
+slurp
+grim
+xdg-utils
+imv
+cliphist
+hyprlock
+hypridle
+sddm
