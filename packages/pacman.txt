@@ -42,3 +42,9 @@ cliphist
 hyprlock
 hypridle
 sddm
+brightnessctl
+playerctl
+bluez 
+bluez-utils
+network-manager-applet
+swayosd
