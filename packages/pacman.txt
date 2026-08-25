@@ -50,3 +50,11 @@ network-manager-applet
 swayosd
 polkit
 polkit-gnome
+btop
+file-roller
+thunar-archive-plugin
+unzip
+7zip
+unrar
+udisks2
+gvfs
