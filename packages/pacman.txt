@@ -58,3 +58,5 @@ unzip
 unrar
 udisks2
 gvfs
+mpv
+wf-recorder
