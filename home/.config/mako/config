@@ -1,0 +1,21 @@
+anchor=top-center
+layer=overlay
+
+width=320
+height=50
+margin=20
+padding=10
+
+border-size=1
+border-radius=8
+
+background-color=#99000000
+text-color=#FFFFFFFF
+border-color=#FFFFFFFF
+progress-color=over #DD000000
+font=JetBrainsMono Nerd Font 13
+
+default-timeout=1200
+ignore-timeout=0
+
+group-by=summary

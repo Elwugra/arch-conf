@@ -1,4 +1,9 @@
 #!/bin/bash
+if [ "$EUID" -eq 0 ]; then
+    echo "Do not run install.sh as root."
+    exit 1
+fi
+
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -14,6 +19,9 @@ sudo pacman -S --needed --noconfirm - < "$SCRIPT_DIR/packages/pacman.txt"
 # Copy user configuration
 mkdir -p "$HOME/.config"
 cp -r "$SCRIPT_DIR/home/.config/." "$HOME/.config/"
+
+mkdir -p "$HOME/Pictures/Wallpapers"
+mkdir -p "$HOME/Videos/Screenrecords"
 
 # Nano configuration
 cp "$SCRIPT_DIR/home/.nanorc" "$HOME/.nanorc"
