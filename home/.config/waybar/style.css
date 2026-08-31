@@ -45,3 +45,22 @@ window#waybar {
     padding: 0 7px;
     color: white;
 }
+
+#mpris {
+    padding: 0 10px;
+    color: white;
+}
+
+#mpris.paused {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+#custom-media {
+    padding: 0 10px;
+    color: white;
+}
+
+#custom-media:hover {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 7px;
+}

@@ -10,6 +10,7 @@
     ],
 
     "modules-center": [
+	"custom/media",
         "clock"
     ],
 
@@ -29,12 +30,34 @@
         "format": "{:%H:%M}"
     },
 
+"mpris": {
+    "format": "󰎆  {artist} — {title}",
+    "format-paused": "󰏤  {artist} — {title}",
+    "format-stopped": "󰎆  No music",
+    "max-length": 45,
+    "tooltip": true,
+    "tooltip-format": "{artist} — {title}\n{album}",
+    "on-click": "playerctl play-pause",
+    "on-click-middle": "playerctl next",
+    "on-click-right": "playerctl previous"
+},
+
 "hyprland/language": {
     "format": "{}",
     "format-en": "EN",
     "format-dk": "DK",
     "format-ru": "RU",
     "format-uk": "UA"
+},
+
+"custom/media": {
+    "exec": "~/.config/waybar/media.sh",
+    "return-type": "json",
+    "format": "{}",
+    "tooltip": true,
+    "on-click": "playerctl play-pause",
+    "on-click-middle": "playerctl next",
+    "on-click-right": "playerctl previous"
 },
 
     "network": {
