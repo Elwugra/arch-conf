@@ -1,0 +1,8 @@
+[Default Applications]
+image/png=imv.desktop
+image/jpeg=imv.desktop
+image/webp=imv.desktop
+video/mp4=mpv.desktop
+
+[Added Associations]
+video/mp4=mpv.desktop;

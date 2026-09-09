@@ -16,9 +16,12 @@ pipewire-alsa
 pipewire-pulse
 qt5-wayland
 qt6-wayland
+jq
 sudo
 ttf-dejavu
 ttf-liberation
+ttf-jetbrains-mono-nerd
+vimix-cursors
 vulkan-intel
 vulkan-tools
 waybar
@@ -33,7 +36,7 @@ wl-clipboard
 thunar
 noto-fonts
 awww
-mako 
+mako
 slurp
 grim
 xdg-utils
@@ -44,7 +47,7 @@ hypridle
 sddm
 brightnessctl
 playerctl
-bluez 
+bluez
 bluez-utils
 network-manager-applet
 swayosd
